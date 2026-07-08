@@ -30,9 +30,10 @@ with st.sidebar:
     uploaded = st.file_uploader("CSV or Excel file", type=["csv", "xlsx", "xls"])
     use_sample = st.checkbox("Use built-in sample dataset", value=not uploaded)
     st.header("2 · Settings")
-    staleness = st.slider("Staleness threshold (days)", 90, 1825, 365, step=30,
-                          help="Records with a last-activity date older than this "
-                               "are flagged under Timeliness / Storage Limitation.")
+    staleness = st.number_input("Staleness threshold (days)",
+                            min_value=1, max_value=36500, value=365, step=1,
+                            help="Records with a last-activity date older than this "
+                                 "are flagged under Timeliness / Storage Limitation.")
     st.markdown("---")
     st.caption("Naqi is advisory and does not constitute legal advice. The PDPL and "
                "its Implementing Regulations remain the binding reference.")
