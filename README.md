@@ -81,3 +81,9 @@ Regulations remain the binding reference.
 - All sample data is **synthetic** and randomly generated using generate_sample_data.py - no real personal data.
 - Validity rules are tuned for Saudi formats (National ID/Iqama, `05xxxxxxxx`
   phones, `SA` IBANs); extend `quality_engine.py` for other schemas.
+
+## ٍResources
+
+Regulatory frameworks: the official SDAIA PDPL page, SDAIA's Regulations & Policies page, the National Data Governance Platform, and NDMO (author of the standards that define Naqi's six dimensions).
+Primary source documents: SDAIA PDPL Guide, the RoPA Records Guideline, and the elm challenge slide deck.
+Tech stack docs — Streamlit, pandas, openpyxl.
