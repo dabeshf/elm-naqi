@@ -22,9 +22,8 @@ def color_badge(text, color):
 
 
 # ---- Header ------------------------------------------------------------------
-st.title("💧 Naqi: نقي")
-st.caption("Data Quality & PDPL Compliance Health Dashboard · aligned to NDMO Data "
-           "Quality dimensions and the Saudi PDPL")
+st.title("Naqi: Data Quality & PDPL Compliance Health Dashboard")
+st.caption("Aligned to NDMO Data Quality dimensions and the Saudi PDPL")
 
 with st.sidebar:
     st.header("1 · Upload data")
