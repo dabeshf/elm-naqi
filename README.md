@@ -8,6 +8,8 @@ Built for the **Data Governance Challenge - (Data Quality)**.
 
 ---
 
+## 🔗 Live demo: [elm-naqi.streamlit.app](https://elm-naqi.streamlit.app/)
+
 ## The problem
 
 > Duplicate and outdated data produce wrong results in AI systems.
